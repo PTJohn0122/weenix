@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo "reformatting all *.c *.h files"
+./reformat $(find -regex '.*/.*\.\(c\|h\)$')
