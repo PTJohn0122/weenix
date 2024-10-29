@@ -8,11 +8,9 @@ This repository is a backup from a private reposity that belongs to a private or
 
 ## Installation
 
-If you're using a virtual machine with the Weenix Vagrantfile, the dependencies should be installed automatically when the machine is provisioned.
+If you're using a virtual machine with the weenix Vagrantfile, the dependencies should be installed automatically when the machine is provisioned.
 
-See also [Getting Started with Weenix](https://github.com/brown-cs1690/handout/wiki/Getting-Started-with-Weenix) for more thorough documentation.
-
-1. Download and install dependencies.
+### Download and install dependencies.
 
    On recent versions of Ubuntu or Debian, you can simply run:
 
@@ -26,13 +24,13 @@ See also [Getting Started with Weenix](https://github.com/brown-cs1690/handout/w
    $ sudo yum install git-core gcc gdb qemu genisoimage make python python-argparse cscope xterm bash grub2-tools xorriso
    ```
 
-2. Compile Weenix:
+### Compile Weenix:
 
    ```bash
    $ make
    ```
 
-3. Invoke Weenix:
+### Invoke Weenix:
 
    ```bash
    $ ./weenix -n
